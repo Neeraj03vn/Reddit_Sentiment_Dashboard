@@ -1,6 +1,8 @@
 # Reddit_Sentiment_Dashboard
 A full-stack Reddit sentiment analysis dashboard using Streamlit, AWS Lambda, RDS, and S3. It fetches live Reddit comments, analyzes their sentiment using TextBlob, and visualizes the results in an interactive dashboard.link:( http://13.235.64.188:8051/ )
 
+## Architecture
+![Reddit-Comments-Sentiment-Analysis Dashboard](https://github.com/user-attachments/assets/70ecc9c5-792b-498d-8941-eb619885d477)
 
 ## Features
 
@@ -20,3 +22,12 @@ A full-stack Reddit sentiment analysis dashboard using Streamlit, AWS Lambda, RD
 6) Amazon RDS
 7) Amazon S3
 8) Docker + ECS (for container deployment)
+
+
+## Usage
+
+1. Setup RDS, Lambda, S3
+2. Deploy Docker image to ECR
+3. ECS Fargate runs Streamlit dashboard (port 8051)
+
+# Dashboard Online Link : http://13.235.64.188:8051/
