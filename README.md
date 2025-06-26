@@ -21,7 +21,7 @@ A full-stack Reddit sentiment analysis dashboard using Streamlit, AWS Lambda, RD
 5) AWS Lambda
 6) Amazon RDS
 7) Amazon S3
-8) Docker + ECS (for container deployment)
+8) Docker + ECR + ECS (for container deployment)
 
 
 ## Usage
