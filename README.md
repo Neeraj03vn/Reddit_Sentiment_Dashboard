@@ -30,4 +30,4 @@ A full-stack Reddit sentiment analysis dashboard using Streamlit, AWS Lambda, RD
 2. Deploy Docker image to ECR
 3. ECS Fargate runs Streamlit dashboard (port 8051)
 
-#### Dashboard Online Link : http://13.235.64.188:8051/
+#### Dashboard Online Link
